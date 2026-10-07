@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CarePlus Hospital</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="app">
+
+
+        <!-- ================= HEADER ================= -->
+
+        <header class="header">
+
+            <div class="logo">
+
+                <div class="logo-icon">
+                    ✚
+                </div>
+
+                <div>
+                    <h1>CarePlus</h1>
+
+                    <span>
+                        Hospital & Healthcare
+                    </span>
+                </div>
+
+            </div>
+
+
+            <nav class="nav">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#doctors">
+                    Doctors
+                </a>
+
+                <a href="#appointment">
+                    Appointment
+                </a>
+
+            </nav>
+
+
+            <button
+                class="menu-btn"
+                id="menuBtn">
+
+                ☰
+
+            </button>
+
+        </header>
+
+
+
+        <!-- ================= HERO ================= -->
+
+        <section
+            class="hero"
+            id="home">
+
+            <div class="hero-content">
+
+                <span class="badge">
+                    🏥 Trusted Healthcare
+                </span>
+
+                <h2>
+                    Your Health,
+                    <br>
+                    Our <span>Priority.</span>
+                </h2>
+
+                <p>
+                    Book an appointment with our
+                    experienced doctors and get the
+                    care you deserve.
+                </p>
+
+
+                <a
+                    href="#appointment"
+                    class="hero-btn">
+
+                    Book Appointment →
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="doctor-circle">
+                    👨‍⚕️
+                </div>
+
+                <div class="floating-card">
+
+                    <strong>
+                        24/7
+                    </strong>
+
+                    <span>
+                        Emergency Care
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🩺
+                </div>
+
+                <h3>
+                    Expert Doctors
+                </h3>
+
+                <p>
+                    Experienced healthcare
+                    professionals.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🏥
+                </div>
+
+                <h3>
+                    Modern Facilities
+                </h3>
+
+                <p>
+                    Advanced medical equipment
+                    and facilities.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ❤️
+                </div>
+
+                <h3>
+                    Patient Care
+                </h3>
+
+                <p>
+                    Caring support for every
+                    patient.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= DOCTORS ================= -->
+
+        <section
+            class="doctors-section"
+            id="doctors">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span>
+                        OUR SPECIALISTS
+                    </span>
+
+                    <h2>
+                        Meet Our Doctors
+                    </h2>
+
+                </div>
+
+
+                <input
+                    type="text"
+                    id="doctorSearch"
+                    placeholder="🔍 Search doctor..."
+                >
+
+            </div>
+
+
+            <div
+                class="doctor-grid"
+                id="doctorGrid">
+
+
+                <!-- Doctor 1 -->
+
+                <div
+                    class="doctor-card"
+                    data-name="Arun Kumar"
+                    data-department="Cardiology">
+
+                    <div class="doctor-image">
+                        👨‍⚕️
+                    </div>
+
+                    <div class="doctor-info">
+
+                        <span class="speciality">
+                            Cardiology
+                        </span>
+
+                        <h3>
+                            Dr. Arun Kumar
+                        </h3>
+
+                        <p>
+                            ❤️ Heart Specialist
+                        </p>
+
+                        <button
+                            class="select-doctor"
+                            data-doctor="Dr. Arun Kumar">
+
+                            Select Doctor
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Doctor 2 -->
+
+                <div
+                    class="doctor-card"
+                    data-name="Priya Sharma"
+                    data-department="Dermatology">
+
+                    <div class="doctor-image">
+                        👩‍⚕️
+                    </div>
+
+                    <div class="doctor-info">
+
+                        <span class="speciality">
+                            Dermatology
+                        </span>
+
+                        <h3>
+                            Dr. Priya Sharma
+                        </h3>
+
+                        <p>
+                            ✨ Skin Specialist
+                        </p>
+
+                        <button
+                            class="select-doctor"
+                            data-doctor="Dr. Priya Sharma">
+
+                            Select Doctor
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Doctor 3 -->
+
+                <div
+                    class="doctor-card"
+                    data-name="Rahul Raj"
+                    data-department="Neurology">
+
+                    <div class="doctor-image">
+                        👨‍⚕️
+                    </div>
+
+                    <div class="doctor-info">
+
+                        <span class="speciality">
+                            Neurology
+                        </span>
+
+                        <h3>
+                            Dr. Rahul Raj
+                        </h3>
+
+                        <p>
+                            🧠 Brain Specialist
+                        </p>
+
+                        <button
+                            class="select-doctor"
+                            data-doctor="Dr. Rahul Raj">
+
+                            Select Doctor
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Doctor 4 -->
+
+                <div
+                    class="doctor-card"
+                    data-name="Meena Devi"
+                    data-department="Pediatrics">
+
+                    <div class="doctor-image">
+                        👩‍⚕️
+                    </div>
+
+                    <div class="doctor-info">
+
+                        <span class="speciality">
+                            Pediatrics
+                        </span>
+
+                        <h3>
+                            Dr. Meena Devi
+                        </h3>
+
+                        <p>
+                            👶 Child Specialist
+                        </p>
+
+                        <button
+                            class="select-doctor"
+                            data-doctor="Dr. Meena Devi">
+
+                            Select Doctor
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= APPOINTMENT ================= -->
+
+        <section
+            class="appointment-section"
+            id="appointment">
+
+
+            <div class="appointment-info">
+
+                <span>
+                    EASY BOOKING
+                </span>
+
+                <h2>
+                    Book Your
+                    Appointment
+                </h2>
+
+                <p>
+                    Choose your preferred doctor,
+                    date and time. Our team will
+                    take care of the rest.
+                </p>
+
+
+                <div class="info-item">
+
+                    <div>
+                        📅
+                    </div>
+
+                    <span>
+                        Flexible Appointment
+                        Scheduling
+                    </span>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <div>
+                        ⏰
+                    </div>
+
+                    <span>
+                        Quick & Easy Booking
+                    </span>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <div>
+                        📞
+                    </div>
+
+                    <span>
+                        24/7 Patient Support
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Appointment Form -->
+
+            <div class="appointment-card">
+
+                <h2>
+                    Appointment Details
+                </h2>
+
+                <p>
+                    Fill in your information
+                </p>
+
+
+                <form id="appointmentForm">
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Patient Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="patientName"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Doctor
+                        </label>
+
+                        <select
+                            id="doctor"
+                            required>
+
+                            <option value="">
+                                Select Doctor
+                            </option>
+
+                            <option>
+                                Dr. Arun Kumar
+                            </option>
+
+                            <option>
+                                Dr. Priya Sharma
+                            </option>
+
+                            <option>
+                                Dr. Rahul Raj
+                            </option>
+
+                            <option>
+                                Dr. Meena Devi
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label>
+                                Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>
+                                Time
+                            </label>
+
+                            <select
+                                id="time"
+                                required>
+
+                                <option value="">
+                                    Select Time
+                                </option>
+
+                                <option>
+                                    09:00 AM
+                                </option>
+
+                                <option>
+                                    10:00 AM
+                                </option>
+
+                                <option>
+                                    11:00 AM
+                                </option>
+
+                                <option>
+                                    02:00 PM
+                                </option>
+
+                                <option>
+                                    03:00 PM
+                                </option>
+
+                                <option>
+                                    04:00 PM
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="book-btn">
+
+                        Confirm Appointment
+
+                    </button>
+
+                </form>
+
+
+                <!-- Success Message -->
+
+                <div
+                    id="successMessage"
+                    class="success-message">
+
+                    <div>
+                        ✓
+                    </div>
+
+                    <h3>
+                        Appointment Booked!
+                    </h3>
+
+                    <p>
+                        Your appointment has been
+                        successfully scheduled.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <div>
+
+                <strong>
+                    CarePlus Hospital
+                </strong>
+
+                <p>
+                    Your health is our priority.
+                </p>
+
+            </div>
+
+
+            <p>
+                © 2026 CarePlus Hospital
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
